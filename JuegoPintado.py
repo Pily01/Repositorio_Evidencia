@@ -7,7 +7,7 @@ Exercises
 3. Complete rectangle.
 4. Complete triangle.
 5. Add width parameter.
-
+6. End
 """
 
 from turtle import *
@@ -92,3 +92,4 @@ Documentation overview
 Previous: Crypto
 Next: Maze
 Quick search
+
