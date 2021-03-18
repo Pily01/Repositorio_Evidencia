@@ -1,3 +1,4 @@
+5. Add width parameter. ∑
 """Paint, for drawing shapes.
 
 Exercises
@@ -6,7 +7,7 @@ Exercises
 2. Complete circle.
 3. Complete rectangle.
 4. Complete triangle.
-5. Add width parameter.
+5. Add width parameter. ∑
 
 """
 
@@ -92,3 +93,4 @@ Documentation overview
 Previous: Crypto
 Next: Maze
 Quick search
+
