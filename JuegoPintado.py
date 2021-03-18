@@ -79,18 +79,4 @@ onkey(lambda: store('shape', circle), 'c')
 onkey(lambda: store('shape', rectangle), 'r')
 onkey(lambda: store('shape', triangle), 't')
 done()
-Logo
 
-Free Python Games
-
-
-Donate
-If you or your organization uses Free Games, consider donating:
-
-Donate to Free Python Games
-
-Related Topics
-Documentation overview
-Previous: Crypto
-Next: Maze
-Quick search
