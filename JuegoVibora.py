@@ -13,9 +13,14 @@ from turtle import *
 from random import randrange
 from freegames import square, vector
 
+
+title("Juego de la Vibora")
+fontSize = 18
+
 food = vector(0, 0)
 snake = [vector(10, 0)]
 aim = vector(0, -10)
+
 
 def change(x, y):
     "Change snake direction."
@@ -32,8 +37,10 @@ def move():
     head.move(aim)
 
     if not inside(head) or head in snake:
-        square(head.x, head.y, 9, 'red')
-        update()
+        square(head.x, head.y, 9, 'white')
+        goto(0, -fontSize * 2)
+        write("   GAME OVER    ",False, align="center",font=("Courier",fontSize,"bold"))
+        bgcolor('red')
         return
 
     snake.append(head)
@@ -50,7 +57,7 @@ def move():
     for body in snake:
         square(body.x, body.y, 9, 'black')
 
-    square(food.x, food.y, 9, 'green')
+    square(food.x, food.y, 9, 'yellow')
     update()
     ontimer(move, 100)
 
