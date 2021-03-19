@@ -81,9 +81,10 @@ onkey(lambda: color('black'), 'K')
 onkey(lambda: color('white'), 'W')
 onkey(lambda: color('green'), 'G')
 onkey(lambda: color('blue'), 'B')
-onkey(lambda: color('red'), 'R') #Color añadido
-onkey(lambda: color('pink'), 'P') #Color añadido
+onkey(lambda: color('red'), 'R') 
+onkey(lambda: color('pink'), 'P') 
 onkey(lambda: color('yellow'), 'Y')
+onkey(lambda: color('cyan'), 'C')
 onkey(lambda: store('shape', line), 'l')
 onkey(lambda: store('shape', square), 's')
 onkey(lambda: store('shape', circle), 'c')
